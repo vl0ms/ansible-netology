@@ -2,7 +2,7 @@
   - name: Print os facts
     hosts: all
     tasks:
-      - name: Print OS
+      - name: Print Distribution
         debug:
           msg: "{{ ansible_distribution }}"
       - name: Print OS
