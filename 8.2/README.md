@@ -16,3 +16,8 @@
 3. Установка Kibana
 
    Версию можно указать в `group_vars/elasticsearch/vars.yml`.
+
+Возможна установка отдельных компонентов с помощью тегов
+`--tags java` - установка JAVA
+`--tags elastic` - установка Elasticsearch
+`--tags kibana` - установка Kibana
