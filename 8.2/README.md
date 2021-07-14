@@ -10,7 +10,7 @@
 
    Версию можно указать в `group_vars/all/vars.yml`.
 
-   Дистрибутив JAVA необходимо предварительно скачать по [ссылке](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) и поместить tag.gz в каталог **files**
+   Дистрибутив JAVA необходимо предварительно скачать по [ссылке](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) и поместить tar.gz в каталог **files**
 
 2. Установка Elasticsearch
 
