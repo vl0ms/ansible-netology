@@ -3,6 +3,9 @@
 ## Before run playbook start docker container:
     `docker run -dit --name ubuntu-ek pycontribs/ubuntu:latest`
 
+## Run playbook:
+    `ansible-playbook -i inventory/prod.yml site.yml`
+
 1. Установка JAVA
 
    Версию можно указать в `group_vars/all/vars.yml`.
@@ -17,10 +20,10 @@
 
    Версию можно указать в `group_vars/elasticsearch/vars.yml`.
 
-Возможна установка отдельных компонентов с помощью тегов
+Возможна установка отдельных компонентов с помощью тегов:
 
-`--tags java` - установка JAVA
+   `--tags java` - установка JAVA
 
-`--tags elastic` - установка Elasticsearch
+   `--tags elastic` - установка Elasticsearch
 
-`--tags kibana` - установка Kibana
+   `--tags kibana` - установка Kibana
