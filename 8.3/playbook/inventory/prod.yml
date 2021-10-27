@@ -1,0 +1,5 @@
+---
+elasticsearch:
+  hosts:
+    ubuntu-ek:
+      ansible_connection: docker
